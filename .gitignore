@@ -1,17 +1,10 @@
-# Build artifacts
-dist/*
+# Python
+__pycache__/
+.venv/
 
-# node modules
-node_modules/*
-
-# pnpm store
-.pnpm-store/*
-
-# Cursor
-.cursor/*
-
-# Cursor
-.cursor/*
+# Secrets and local data
+.env
+*.db
 
 # macOS
 .DS_Store
